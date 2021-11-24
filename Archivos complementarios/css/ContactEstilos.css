@@ -1,0 +1,81 @@
+body{
+	background-image: url(../img/f1.jpg) ;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin:0;
+	font-family: sans-serif;
+	padding: 0;
+}
+
+label {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+	color: #F5EEEF;
+	font-weight: bold
+}
+
+form{
+	width: 450px;
+	margin: auto;
+	background: rgba(194, 224, 239, 0.6);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+
+h2{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#boton{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #0FB8B3;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	font-weight: bold
+}
+#boton:hover{
+	cursor: pointer;
+	background: #C3F7F7;
+	color: #000;
+	font-weight: bold
+}
+
+@media (max-width: 480px){
+	form{
+		width: 100%;
+	}
+}
