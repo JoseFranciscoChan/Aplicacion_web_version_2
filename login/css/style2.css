@@ -1,0 +1,99 @@
+/* General */
+body {
+    background-image: url(../img/f1.jpg) ;
+    margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+
+form{
+  width: 450px;
+  margin: auto;
+  background: rgba(144, 189, 223, 0.68);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+h2{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Input Forms*/
+input[type="text"], input[type="password"]{
+  outline: none;
+  padding: 10px;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  color: #fff;
+  background: #0098cb;
+  width: 320px;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #00b8eb;
+}
+
+/* Header */
+header {
+  border-bottom: 2px solid #eee;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  color: #333;
+}
+
+#boton{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #ff0000;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  font-weight: bold
+}
+#boton:hover{
+  cursor: pointer;
+  background: #C3F7F7;
+  color: #000;
+  font-weight: bold
+}
+
+
+#registrarNuevo{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #ff0000;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  font-weight: bold
+}
+#registrarNuevo:hover{
+  cursor: pointer;
+  background: #C3F7F7;
+  color: #000;
+  font-weight: bold
+}
